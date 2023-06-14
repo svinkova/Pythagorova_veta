@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pythagorova věta</title>
+</head>
+<body>
+    <div class="container">
+
+    
+        <h1>Pythagorova věta</h1>
+        <p class="info">Výpočet stran v pravoúhlém trojúhelníku</p>
+        <img src="images/pravouhly_trojuhelnik.png" alt="Pravoúhlý trojúhelník náčrtek">
+        <p class="info">Zadejte dvě známé hodnoty a třetí bude dopočítána.</p>
+        <div class="vzorec">
+            <p><i>c</i><sup> 2</sup> = <i>a</i><sup> 2</sup> + <i>b</i><sup> 2</sup></p>
+        </div>
+        <div class="hodnoty">
+            <p>Odvěsna <i>a =</i>
+            <input type="number" id="inputA">
+            </p>
+        
+            <p>Odvěsna <i>b =</i>
+            <input type="number" id="inputB">
+            </p>
+        
+            <p>Přepona <i>c =</i>
+            <input type="number" id="inputC">
+            </p>
+        </div>
+        
+        <div class="btn">
+            <button id="vysledek">Spočítat</button>
+            <button id="vymazat">Vymazat</button>
+        </div>
+        
+        <p>Výsledek výpočtu:</p>
+        <p id="chyba"></p>
+
+
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>

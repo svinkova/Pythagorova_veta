@@ -1,0 +1,97 @@
+* {
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.container {
+    margin-top: 16px;
+    width: 400px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: blueviolet;
+    text-align: center;
+    margin: 24px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8rem;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    align-items: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.vzorec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vzorec p {
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    text-align: center;
+    padding: 8px 16px;
+    margin: 24px 0px;
+    border: 2px solid blueviolet;
+}
+
+sup {
+    font-size: 0.7rem;
+}
+
+i {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 1.1rem;
+}
+
+.hodnoty {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+input {
+    width: 100px;
+    height: 1.5rem;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin: 24px 0px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+#chyba {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
